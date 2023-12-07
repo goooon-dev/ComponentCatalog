@@ -2963,7 +2963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:7.6.3":
+"@storybook/addon-docs@npm:7.6.3, @storybook/addon-docs@npm:^7.6.3":
   version: 7.6.3
   resolution: "@storybook/addon-docs@npm:7.6.3"
   dependencies:
@@ -5779,6 +5779,7 @@ __metadata:
     "@babel/preset-env": "npm:^7.23.5"
     "@babel/preset-react": "npm:^7.23.3"
     "@babel/preset-typescript": "npm:^7.23.3"
+    "@storybook/addon-docs": "npm:^7.6.3"
     "@storybook/addon-essentials": "npm:^7.0.20"
     "@storybook/addon-interactions": "npm:^7.0.20"
     "@storybook/addon-links": "npm:^7.0.20"
