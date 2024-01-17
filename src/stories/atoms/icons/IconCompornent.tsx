@@ -5,10 +5,11 @@ interface IconProps {
   Icon: IconType;
   size?: string;
   color?: string;
+  className?: string;
 }
 
-const IconCompornent: React.FC<IconProps> = ({ Icon, size = "1em", color="black" }) => (
-  <Icon size={size} color={color} />
+const IconCompornent: React.FC<IconProps> = ({ Icon, size = "1em", color="black", className }) => (
+  <Icon size={size} color={color} className={className} />
 );
 
 export default IconCompornent;
