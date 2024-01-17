@@ -4,10 +4,10 @@ import { FaBeer } from 'react-icons/fa';
 
 describe('Icon Component', () => {
   test('renders Icon component with specified icon and size', () => {
-    const { getByRole } = render(<Icon Icon={FaBeer} size="2em" />);
-    const iconElement = getByRole('img');
-    expect(iconElement).toBeInTheDocument();
-    expect(iconElement).toHaveAttribute('width', '2em');
-    expect(iconElement).toHaveAttribute('height', '2em');
+    const { container } = render(<Icon Icon={FaBeer} size="2em" />);
+    const svgElement = container.querySelector('svg');
+    expect(svgElement).toBeInTheDocument();
+    expect(svgElement).toHaveAttribute('width', '2em');
+    expect(svgElement).toHaveAttribute('height', '2em');
   });
 });
