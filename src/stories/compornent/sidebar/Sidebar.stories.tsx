@@ -5,8 +5,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Sidebar from './Sidebar';
 
 const meta = {
-  title: 'Sidebar',
+  title: 'Compornents/Sidebar',
   component: Sidebar,
+  tags: ['autodocs'],
 } satisfies Meta<typeof Sidebar>;
 
 export default meta;
